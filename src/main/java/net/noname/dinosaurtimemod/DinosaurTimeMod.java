@@ -1,6 +1,7 @@
 package net.noname.dinosaurtimemod;
 
 import net.noname.dinosaurtimemod.block.ModBlocks;
+import net.noname.dinosaurtimemod.item.ModCreativeModeTabs;
 import net.noname.dinosaurtimemod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -55,6 +56,8 @@ public class DinosaurTimeMod {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -70,15 +73,6 @@ public class DinosaurTimeMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.AMBER);
-            event.accept(ModItems.AMBER_MOSQUITO);
-        }
-
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.STONE_AMBER_BLOCK);
-        }
-
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
