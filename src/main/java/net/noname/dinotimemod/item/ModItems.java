@@ -1,10 +1,10 @@
-package net.noname.dinosaurtimemod.item;
+package net.noname.dinotimemod.item;
 
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.noname.dinosaurtimemod.DinosaurTimeMod;
+import net.noname.dinotimemod.DinosaurTimeMod;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(DinosaurTimeMod.MODID);

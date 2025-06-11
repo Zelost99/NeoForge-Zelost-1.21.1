@@ -1,4 +1,4 @@
-package net.noname.dinosaurtimemod;
+package net.noname.dinotimemod;
 
 import java.util.List;
 import java.util.Set;

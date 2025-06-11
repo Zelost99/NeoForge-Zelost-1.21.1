@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dinotimemod:block/ore/deepslate_amber_ore"
+  }
+}

@@ -2,6 +2,9 @@
   "item.dinotimemod.amber": "Amber",
   "item.dinotimemod.amber_mosquito": "Amber Mosquito",
 
+  "block.dinotimemod.stone_amber_ore": "Stone Amber Ore",
+  "block.dinotimemod.deepslate_amber_ore": "Deepslate Amber Ore",
+
 
   "creativetab.dinotimemod.fossil_ore": "Fossil Ore Tab"
 }
